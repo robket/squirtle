@@ -28,6 +28,13 @@ class squiver:
       body = simplejson.loads(rawbody)
       # do_something_with(body)
       return "\n".join(map(lambda x: x.upper(), body["names"]))
+    
+    @cherrypy.expose
+    def mako(self):
+      #tmpl = lookup.get_template("mako.html")
+      temp = Template("${salutation} ${target}")
+      tmp = Template(filename='html/mako.txt')
+      return tmp.render(salutation="Hello", target="World")
 
 cherrypy.quickstart(squiver(), config="cherrypy.conf")
 
