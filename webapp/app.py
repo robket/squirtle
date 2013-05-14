@@ -3,7 +3,6 @@ import datetime
 import simplejson
 from mako.template import Template
 from mako.lookup import TemplateLookup
-lookup = TemplateLookup(directories=['html'])
 
 class squiver:
     @cherrypy.expose
@@ -31,10 +30,9 @@ class squiver:
     
     @cherrypy.expose
     def mako(self):
-      #tmpl = lookup.get_template("mako.html")
-      temp = Template("${salutation} ${target}")
-      tmp = Template(filename='html/mako.txt')
-      return tmp.render(salutation="Hello", target="World")
+      mylookup = TemplateLookup(directories=['html'])
+      mytemplate = mylookup.get_template('shedinja.html')
+      return mytemplate.render(first="foo", second="bar", third="baz")
 
     @cherrypy.expose
     def homeHandler(self, *args, **kwargs):

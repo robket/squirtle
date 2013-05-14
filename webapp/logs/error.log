@@ -1752,3 +1752,65 @@ Request Headers:
 [14/May/2013:16:40:37] ENGINE Bus EXITED
 [14/May/2013:16:40:37] ENGINE Waiting for child threads to terminate...
 [14/May/2013:16:40:37] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:17:14:37] ENGINE Listening for SIGHUP.
+[14/May/2013:17:14:37] ENGINE Listening for SIGTERM.
+[14/May/2013:17:14:37] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:14:37] ENGINE Bus STARTING
+[14/May/2013:17:14:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:14:37] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:14:37] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:14:37] ENGINE Bus STARTED
+[14/May/2013:17:15:12] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:15:12] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:15:12] ENGINE Bus STOPPING
+[14/May/2013:17:15:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:15:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:15:12] ENGINE Bus STOPPED
+[14/May/2013:17:15:12] ENGINE Bus EXITING
+[14/May/2013:17:15:12] ENGINE Bus EXITED
+[14/May/2013:17:15:12] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:15:12] ENGINE Re-spawning app.py
+[14/May/2013:17:15:13] ENGINE Listening for SIGHUP.
+[14/May/2013:17:15:13] ENGINE Listening for SIGTERM.
+[14/May/2013:17:15:13] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:15:13] ENGINE Bus STARTING
+[14/May/2013:17:15:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:15:13] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:15:13] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:15:13] ENGINE Bus STARTED
+[14/May/2013:17:16:49] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:16:49] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:16:49] ENGINE Bus STOPPING
+[14/May/2013:17:16:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:16:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:16:49] ENGINE Bus STOPPED
+[14/May/2013:17:16:49] ENGINE Bus EXITING
+[14/May/2013:17:16:49] ENGINE Bus EXITED
+[14/May/2013:17:16:49] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:16:49] ENGINE Re-spawning app.py
+[14/May/2013:17:16:49] ENGINE Listening for SIGHUP.
+[14/May/2013:17:16:49] ENGINE Listening for SIGTERM.
+[14/May/2013:17:16:49] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:16:49] ENGINE Bus STARTING
+[14/May/2013:17:16:49] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:16:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:16:50] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:16:50] ENGINE Bus STARTED
+[14/May/2013:17:21:47] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:21:47] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:21:47] ENGINE Bus STOPPING
+[14/May/2013:17:21:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:21:47] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:21:47] ENGINE Bus STOPPED
+[14/May/2013:17:21:47] ENGINE Bus EXITING
+[14/May/2013:17:21:47] ENGINE Bus EXITED
+[14/May/2013:17:21:47] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:21:47] ENGINE Re-spawning app.py
+[14/May/2013:17:21:47] ENGINE Listening for SIGHUP.
+[14/May/2013:17:21:47] ENGINE Listening for SIGTERM.
+[14/May/2013:17:21:47] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:21:47] ENGINE Bus STARTING
+[14/May/2013:17:21:47] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:21:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:21:47] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:21:47] ENGINE Bus STARTED
