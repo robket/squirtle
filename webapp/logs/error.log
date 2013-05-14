@@ -1814,3 +1814,553 @@ Request Headers:
 [14/May/2013:17:21:47] ENGINE Started monitor thread '_TimeoutMonitor'.
 [14/May/2013:17:21:47] ENGINE Serving on 0.0.0.0:8080
 [14/May/2013:17:21:47] ENGINE Bus STARTED
+[14/May/2013:17:25:33] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:25:33] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:25:33] ENGINE Bus STOPPING
+[14/May/2013:17:25:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:25:33] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:25:33] ENGINE Bus STOPPED
+[14/May/2013:17:25:33] ENGINE Bus EXITING
+[14/May/2013:17:25:33] ENGINE Bus EXITED
+[14/May/2013:17:25:33] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:25:33] ENGINE Re-spawning app.py
+[14/May/2013:17:25:33] ENGINE Listening for SIGHUP.
+[14/May/2013:17:25:33] ENGINE Listening for SIGTERM.
+[14/May/2013:17:25:33] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:25:33] ENGINE Bus STARTING
+[14/May/2013:17:25:33] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:25:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:25:34] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:25:34] ENGINE Bus STARTED
+[14/May/2013:17:32:24] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:32:24] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:32:40] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:32:40] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:32:54] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:32:54] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:34:53] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:34:53] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:35:02] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:35:02] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:35:04] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:35:04] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:35:38] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:35:38] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:35:49] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:35:49] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:36:15] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:36:15] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:36:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:36:16] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:37:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:37:16] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:37:44] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 34, in mako
+    mytemplate = mylookup.get_template('shedinja.html')
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 218, in get_template
+    return self._load(srcfile, uri)
+  File "/usr/lib/python2.7/dist-packages/mako/lookup.py", line 283, in _load
+    **self.template_args)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 224, in __init__
+    module = self._compile_from_file(path, filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 268, in _compile_from_file
+    filename)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 484, in _compile_text
+    node = lexer.parse()
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 192, in parse
+    self.filename,)
+  File "/usr/lib/python2.7/dist-packages/mako/lexer.py", line 184, in decode_raw_stream
+    0, 0, filename)
+CompileException: Unicode decode operation of encoding 'ascii' failed in file 'html/shedinja.html' at line: 0 char: 0
+
+[14/May/2013:17:37:44] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:47:49] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:47:49] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:47:49] ENGINE Bus STOPPING
+[14/May/2013:17:47:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:47:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:47:49] ENGINE Bus STOPPED
+[14/May/2013:17:47:49] ENGINE Bus EXITING
+[14/May/2013:17:47:49] ENGINE Bus EXITED
+[14/May/2013:17:47:49] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:47:49] ENGINE Re-spawning app.py
+[14/May/2013:17:47:49] ENGINE Listening for SIGHUP.
+[14/May/2013:17:47:49] ENGINE Listening for SIGTERM.
+[14/May/2013:17:47:49] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:47:49] ENGINE Bus STARTING
+[14/May/2013:17:47:49] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:47:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:47:49] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:47:49] ENGINE Bus STARTED
+[14/May/2013:17:47:53] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 35, in mako
+    return mytemplate.render(first="foo", second="bar", third="baz")
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+  File "shedinja_html", line 38, in render_body
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 180, in __str__
+    raise NameError("Undefined")
+NameError: Undefined
+
+[14/May/2013:17:47:53] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:48:50] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:48:50] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:48:50] ENGINE Bus STOPPING
+[14/May/2013:17:48:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:48:50] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:48:50] ENGINE Bus STOPPED
+[14/May/2013:17:48:50] ENGINE Bus EXITING
+[14/May/2013:17:48:50] ENGINE Bus EXITED
+[14/May/2013:17:48:50] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:48:50] ENGINE Re-spawning app.py
+[14/May/2013:17:48:50] ENGINE Listening for SIGHUP.
+[14/May/2013:17:48:50] ENGINE Listening for SIGTERM.
+[14/May/2013:17:48:50] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:48:50] ENGINE Bus STARTING
+[14/May/2013:17:48:50] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:48:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:48:50] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:48:50] ENGINE Bus STARTED
+[14/May/2013:17:48:51] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 37, in mako
+    return mytemplate.render(d)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+TypeError: render_body() takes exactly 1 argument (2 given)
+
+[14/May/2013:17:48:51] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:17:49:19] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:17:49:19] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:17:49:19] ENGINE Bus STOPPING
+[14/May/2013:17:49:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:17:49:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:17:49:19] ENGINE Bus STOPPED
+[14/May/2013:17:49:19] ENGINE Bus EXITING
+[14/May/2013:17:49:19] ENGINE Bus EXITED
+[14/May/2013:17:49:19] ENGINE Waiting for child threads to terminate...
+[14/May/2013:17:49:19] ENGINE Re-spawning app.py
+[14/May/2013:17:49:19] ENGINE Listening for SIGHUP.
+[14/May/2013:17:49:19] ENGINE Listening for SIGTERM.
+[14/May/2013:17:49:19] ENGINE Listening for SIGUSR1.
+[14/May/2013:17:49:19] ENGINE Bus STARTING
+[14/May/2013:17:49:19] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:17:49:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:17:49:19] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:17:49:19] ENGINE Bus STARTED
