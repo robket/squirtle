@@ -32,7 +32,9 @@ class squiver:
     def mako(self):
       mylookup = TemplateLookup(directories=['html'])
       mytemplate = mylookup.get_template('shedinja.html')
-      return mytemplate.render(first="foo", second="bar", third="baz")
+      d = dict(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
+      #return mytemplate.render(first="foo", second="bar", third="baz")
+      return mytemplate.render(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
 
     @cherrypy.expose
     def homeHandler(self, *args, **kwargs):
