@@ -1192,3 +1192,563 @@ Request Headers:
 [14/May/2013:15:45:50] ENGINE Started monitor thread '_TimeoutMonitor'.
 [14/May/2013:15:45:50] ENGINE Serving on 0.0.0.0:80
 [14/May/2013:15:45:50] ENGINE Bus STARTED
+[14/May/2013:15:56:07] ENGINE Listening for SIGHUP.
+[14/May/2013:15:56:07] ENGINE Listening for SIGTERM.
+[14/May/2013:15:56:07] ENGINE Listening for SIGUSR1.
+[14/May/2013:15:56:07] ENGINE Bus STARTING
+[14/May/2013:15:56:07] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:15:56:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:15:56:12] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x8e7f0ec>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 197, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpserver.py", line 151, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/servers.py", line 167, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/servers.py", line 410, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 80 not free on '0.0.0.0'
+
+[14/May/2013:15:56:12] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 235, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 215, in publish
+    raise exc
+ChannelFailures: IOError("Port 80 not free on '0.0.0.0'",)
+
+[14/May/2013:15:56:12] ENGINE Bus STOPPING
+[14/May/2013:15:56:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[14/May/2013:15:56:12] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:15:56:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:15:56:12] ENGINE Bus STOPPED
+[14/May/2013:15:56:12] ENGINE Bus EXITING
+[14/May/2013:15:56:12] ENGINE Bus EXITED
+[14/May/2013:15:57:15] ENGINE Listening for SIGHUP.
+[14/May/2013:15:57:15] ENGINE Listening for SIGTERM.
+[14/May/2013:15:57:15] ENGINE Listening for SIGUSR1.
+[14/May/2013:15:57:15] ENGINE Bus STARTING
+[14/May/2013:15:57:15] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:15:57:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:15:57:20] ENGINE Error in 'start' listener <bound method Server.start of <cherrypy._cpserver.Server object at 0x93010ec>>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 197, in publish
+    output.append(listener(*args, **kwargs))
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpserver.py", line 151, in start
+    ServerAdapter.start(self)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/servers.py", line 167, in start
+    wait_for_free_port(*self.bind_addr)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/servers.py", line 410, in wait_for_free_port
+    raise IOError("Port %r not free on %r" % (port, host))
+IOError: Port 80 not free on '0.0.0.0'
+
+[14/May/2013:15:57:20] ENGINE Shutting down due to error in start listener:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 235, in start
+    self.publish('start')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/process/wspbus.py", line 215, in publish
+    raise exc
+ChannelFailures: IOError("Port 80 not free on '0.0.0.0'",)
+
+[14/May/2013:15:57:20] ENGINE Bus STOPPING
+[14/May/2013:15:57:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 80)) already shut down
+[14/May/2013:15:57:20] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:15:57:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:15:57:20] ENGINE Bus STOPPED
+[14/May/2013:15:57:20] ENGINE Bus EXITING
+[14/May/2013:15:57:20] ENGINE Bus EXITED
+[14/May/2013:15:57:36] ENGINE Listening for SIGHUP.
+[14/May/2013:15:57:36] ENGINE Listening for SIGTERM.
+[14/May/2013:15:57:36] ENGINE Listening for SIGUSR1.
+[14/May/2013:15:57:36] ENGINE Bus STARTING
+[14/May/2013:15:57:36] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:15:57:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:15:57:36] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:15:57:36] ENGINE Bus STARTED
+[14/May/2013:16:00:04] ENGINE Restarting because cherrypy.conf changed.
+[14/May/2013:16:00:04] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:00:04] ENGINE Bus STOPPING
+[14/May/2013:16:00:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:00:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:00:04] ENGINE Bus STOPPED
+[14/May/2013:16:00:04] ENGINE Bus EXITING
+[14/May/2013:16:00:04] ENGINE Bus EXITED
+[14/May/2013:16:00:04] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:00:04] ENGINE Re-spawning app.py
+[14/May/2013:16:00:04] ENGINE Listening for SIGHUP.
+[14/May/2013:16:00:04] ENGINE Listening for SIGTERM.
+[14/May/2013:16:00:04] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:00:04] ENGINE Bus STARTING
+[14/May/2013:16:00:04] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:00:04] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:00:05] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:00:05] ENGINE Bus STARTED
+[14/May/2013:16:00:23] ENGINE Restarting because cherrypy.conf changed.
+[14/May/2013:16:00:23] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:00:23] ENGINE Bus STOPPING
+[14/May/2013:16:00:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:00:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:00:23] ENGINE Bus STOPPED
+[14/May/2013:16:00:23] ENGINE Bus EXITING
+[14/May/2013:16:00:23] ENGINE Bus EXITED
+[14/May/2013:16:00:23] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:00:23] ENGINE Re-spawning app.py
+[14/May/2013:16:00:23] ENGINE Listening for SIGHUP.
+[14/May/2013:16:00:23] ENGINE Listening for SIGTERM.
+[14/May/2013:16:00:23] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:00:23] ENGINE Bus STARTING
+[14/May/2013:16:00:23] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:00:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:00:23] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:00:23] ENGINE Bus STARTED
+[14/May/2013:16:00:26] ENGINE Restarting because cherrypy.conf changed.
+[14/May/2013:16:00:26] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:00:26] ENGINE Bus STOPPING
+[14/May/2013:16:00:26] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:00:26] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:00:26] ENGINE Bus STOPPED
+[14/May/2013:16:00:26] ENGINE Bus EXITING
+[14/May/2013:16:00:26] ENGINE Bus EXITED
+[14/May/2013:16:00:26] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:00:26] ENGINE Re-spawning app.py
+[14/May/2013:16:00:26] ENGINE Listening for SIGHUP.
+[14/May/2013:16:00:26] ENGINE Listening for SIGTERM.
+[14/May/2013:16:00:26] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:00:26] ENGINE Bus STARTING
+[14/May/2013:16:00:26] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:00:26] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:00:26] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:00:26] ENGINE Bus STARTED
+[14/May/2013:16:00:34] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:00:34] ENGINE Bus STOPPING
+[14/May/2013:16:00:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:00:35] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:00:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:00:35] ENGINE Bus STOPPED
+[14/May/2013:16:00:35] ENGINE Bus EXITING
+[14/May/2013:16:00:35] ENGINE Bus EXITED
+[14/May/2013:16:00:35] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:00:35] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:00:42] ENGINE Listening for SIGHUP.
+[14/May/2013:16:00:42] ENGINE Listening for SIGTERM.
+[14/May/2013:16:00:42] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:00:42] ENGINE Bus STARTING
+[14/May/2013:16:00:42] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:00:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:00:42] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:00:42] ENGINE Bus STARTED
+[14/May/2013:16:01:18] ENGINE Restarting because cherrypy.conf changed.
+[14/May/2013:16:01:18] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:01:18] ENGINE Bus STOPPING
+[14/May/2013:16:01:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:01:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:01:18] ENGINE Bus STOPPED
+[14/May/2013:16:01:18] ENGINE Bus EXITING
+[14/May/2013:16:01:18] ENGINE Bus EXITED
+[14/May/2013:16:01:18] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:01:18] ENGINE Re-spawning app.py
+[14/May/2013:16:01:18] ENGINE Listening for SIGHUP.
+[14/May/2013:16:01:18] ENGINE Listening for SIGTERM.
+[14/May/2013:16:01:18] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:01:18] ENGINE Bus STARTING
+[14/May/2013:16:01:18] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:01:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:01:18] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:01:18] ENGINE Bus STARTED
+[14/May/2013:16:01:37] ENGINE Restarting because cherrypy.conf changed.
+[14/May/2013:16:01:37] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:01:37] ENGINE Bus STOPPING
+[14/May/2013:16:01:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:01:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:01:37] ENGINE Bus STOPPED
+[14/May/2013:16:01:37] ENGINE Bus EXITING
+[14/May/2013:16:01:37] ENGINE Bus EXITED
+[14/May/2013:16:01:38] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:01:38] ENGINE Re-spawning app.py
+[14/May/2013:16:01:38] ENGINE Listening for SIGHUP.
+[14/May/2013:16:01:38] ENGINE Listening for SIGTERM.
+[14/May/2013:16:01:38] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:01:38] ENGINE Bus STARTING
+[14/May/2013:16:01:38] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:01:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:01:38] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:01:38] ENGINE Bus STARTED
+[14/May/2013:16:06:07] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:16:06:07] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:06:07] ENGINE Bus STOPPING
+[14/May/2013:16:06:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:06:07] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:06:07] ENGINE Bus STOPPED
+[14/May/2013:16:06:07] ENGINE Bus EXITING
+[14/May/2013:16:06:07] ENGINE Bus EXITED
+[14/May/2013:16:06:07] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:06:08] ENGINE Re-spawning app.py
+[14/May/2013:16:07:43] ENGINE Listening for SIGHUP.
+[14/May/2013:16:07:43] ENGINE Listening for SIGTERM.
+[14/May/2013:16:07:43] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:07:43] ENGINE Bus STARTING
+[14/May/2013:16:07:43] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:07:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:07:43] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:07:43] ENGINE Bus STARTED
+[14/May/2013:16:08:09] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[14/May/2013:16:08:09] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:08:09] ENGINE Bus STOPPING
+[14/May/2013:16:08:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:08:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:08:09] ENGINE Bus STOPPED
+[14/May/2013:16:08:09] ENGINE Bus EXITING
+[14/May/2013:16:08:09] ENGINE Bus EXITED
+[14/May/2013:16:08:09] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:08:09] ENGINE Re-spawning app.py
+[14/May/2013:16:08:09] ENGINE Listening for SIGHUP.
+[14/May/2013:16:08:09] ENGINE Listening for SIGTERM.
+[14/May/2013:16:08:09] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:08:09] ENGINE Bus STARTING
+[14/May/2013:16:08:09] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:08:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:08:09] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:08:09] ENGINE Bus STARTED
+[14/May/2013:16:08:11] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:08:11] ENGINE Bus STOPPING
+[14/May/2013:16:08:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:08:11] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:08:11] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:08:11] ENGINE Bus STOPPED
+[14/May/2013:16:08:11] ENGINE Bus EXITING
+[14/May/2013:16:08:11] ENGINE Bus EXITED
+[14/May/2013:16:08:11] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:08:13] ENGINE Listening for SIGHUP.
+[14/May/2013:16:08:13] ENGINE Listening for SIGTERM.
+[14/May/2013:16:08:13] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:08:13] ENGINE Bus STARTING
+[14/May/2013:16:08:13] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:08:13] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:08:13] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:08:13] ENGINE Bus STARTED
+[14/May/2013:16:08:21] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:08:21] ENGINE Bus STOPPING
+[14/May/2013:16:08:23] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:08:23] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:08:23] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:08:23] ENGINE Bus STOPPED
+[14/May/2013:16:08:23] ENGINE Bus EXITING
+[14/May/2013:16:08:23] ENGINE Bus EXITED
+[14/May/2013:16:08:23] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:08:23] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:08:47] ENGINE Listening for SIGHUP.
+[14/May/2013:16:08:47] ENGINE Listening for SIGTERM.
+[14/May/2013:16:08:47] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:08:47] ENGINE Bus STARTING
+[14/May/2013:16:08:47] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:08:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:08:47] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:08:47] ENGINE Bus STARTED
+[14/May/2013:16:09:35] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:09:35] ENGINE Bus STOPPING
+[14/May/2013:16:09:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:09:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:09:36] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:09:36] ENGINE Bus STOPPED
+[14/May/2013:16:09:36] ENGINE Bus EXITING
+[14/May/2013:16:09:36] ENGINE Bus EXITED
+[14/May/2013:16:09:36] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:09:36] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:16:10:36] ENGINE Listening for SIGHUP.
+[14/May/2013:16:10:36] ENGINE Listening for SIGTERM.
+[14/May/2013:16:10:36] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:10:36] ENGINE Bus STARTING
+[14/May/2013:16:10:36] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:10:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:10:36] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:10:36] ENGINE Bus STARTED
+[14/May/2013:16:10:57] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:10:57] ENGINE Bus STOPPING
+[14/May/2013:16:10:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:10:58] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:10:58] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:10:58] ENGINE Bus STOPPED
+[14/May/2013:16:10:58] ENGINE Bus EXITING
+[14/May/2013:16:10:58] ENGINE Bus EXITED
+[14/May/2013:16:10:58] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:10:58] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:16:12:15] ENGINE Listening for SIGHUP.
+[14/May/2013:16:12:15] ENGINE Listening for SIGTERM.
+[14/May/2013:16:12:15] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:12:15] ENGINE Bus STARTING
+[14/May/2013:16:12:15] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:12:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:12:15] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:12:15] ENGINE Bus STARTED
+[14/May/2013:16:12:33] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 28, in jsonupdate
+    body = simplejson.loads(rawbody)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 413, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 402, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 420, in raw_decode
+    raise JSONDecodeError("No JSON object could be decoded", s, idx)
+JSONDecodeError: No JSON object could be decoded: line 1 column 0 (char 0)
+
+[14/May/2013:16:12:33] HTTP 
+Request Headers:
+  Content-Length: 8
+  PRAGMA: no-cache
+  REFERER: http://localhost:8080/updateJson
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: no-cache
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/plain, */*
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  X-REQUESTED-WITH: XMLHttpRequest
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  Content-Type: application/json; charset=UTF-8
+  ACCEPT-ENCODING: gzip, deflate
+[14/May/2013:16:12:49] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:12:49] ENGINE Bus STOPPING
+[14/May/2013:16:12:50] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:12:50] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:12:50] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:12:50] ENGINE Bus STOPPED
+[14/May/2013:16:12:50] ENGINE Bus EXITING
+[14/May/2013:16:12:50] ENGINE Bus EXITED
+[14/May/2013:16:12:50] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:12:50] ENGINE Waiting for thread CP Server Thread-7.
+[14/May/2013:16:13:14] ENGINE Listening for SIGHUP.
+[14/May/2013:16:13:14] ENGINE Listening for SIGTERM.
+[14/May/2013:16:13:14] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:13:14] ENGINE Bus STARTING
+[14/May/2013:16:13:14] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:13:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:13:14] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:13:14] ENGINE Bus STARTED
+[14/May/2013:16:13:31] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:13:31] ENGINE Bus STOPPING
+[14/May/2013:16:13:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:13:31] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:13:31] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:13:31] ENGINE Bus STOPPED
+[14/May/2013:16:13:31] ENGINE Bus EXITING
+[14/May/2013:16:13:31] ENGINE Bus EXITED
+[14/May/2013:16:13:31] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:15:42] ENGINE Listening for SIGHUP.
+[14/May/2013:16:15:42] ENGINE Listening for SIGTERM.
+[14/May/2013:16:15:42] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:15:42] ENGINE Bus STARTING
+[14/May/2013:16:15:42] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:15:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:15:42] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:15:42] ENGINE Bus STARTED
+[14/May/2013:16:15:55] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:15:55] ENGINE Bus STOPPING
+[14/May/2013:16:15:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:15:56] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:15:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:15:56] ENGINE Bus STOPPED
+[14/May/2013:16:15:56] ENGINE Bus EXITING
+[14/May/2013:16:15:56] ENGINE Bus EXITED
+[14/May/2013:16:15:56] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:15:56] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:16:21] ENGINE Listening for SIGHUP.
+[14/May/2013:16:16:21] ENGINE Listening for SIGTERM.
+[14/May/2013:16:16:21] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:16:21] ENGINE Bus STARTING
+[14/May/2013:16:16:21] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:16:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:16:21] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:16:21] ENGINE Bus STARTED
+[14/May/2013:16:16:37] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:16:37] ENGINE Bus STOPPING
+[14/May/2013:16:16:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:16:37] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:16:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:16:37] ENGINE Bus STOPPED
+[14/May/2013:16:16:37] ENGINE Bus EXITING
+[14/May/2013:16:16:37] ENGINE Bus EXITED
+[14/May/2013:16:16:37] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:16:37] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:17:56] ENGINE Listening for SIGHUP.
+[14/May/2013:16:17:56] ENGINE Listening for SIGTERM.
+[14/May/2013:16:17:56] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:17:56] ENGINE Bus STARTING
+[14/May/2013:16:17:56] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:17:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:17:56] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:17:56] ENGINE Bus STARTED
+[14/May/2013:16:18:03] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:18:03] ENGINE Bus STOPPING
+[14/May/2013:16:18:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:18:04] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:18:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:18:04] ENGINE Bus STOPPED
+[14/May/2013:16:18:04] ENGINE Bus EXITING
+[14/May/2013:16:18:04] ENGINE Bus EXITED
+[14/May/2013:16:18:04] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:18:04] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:19:46] ENGINE Listening for SIGHUP.
+[14/May/2013:16:19:46] ENGINE Listening for SIGTERM.
+[14/May/2013:16:19:46] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:19:46] ENGINE Bus STARTING
+[14/May/2013:16:19:46] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:19:46] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:19:46] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:19:46] ENGINE Bus STARTED
+[14/May/2013:16:20:05] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:20:05] ENGINE Bus STOPPING
+[14/May/2013:16:20:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:20:06] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:20:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:20:06] ENGINE Bus STOPPED
+[14/May/2013:16:20:06] ENGINE Bus EXITING
+[14/May/2013:16:20:06] ENGINE Bus EXITED
+[14/May/2013:16:20:06] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:20:06] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:16:21:31] ENGINE Listening for SIGHUP.
+[14/May/2013:16:21:31] ENGINE Listening for SIGTERM.
+[14/May/2013:16:21:31] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:21:31] ENGINE Bus STARTING
+[14/May/2013:16:21:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:21:31] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:21:31] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:21:31] ENGINE Bus STARTED
+[14/May/2013:16:22:01] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:22:01] ENGINE Bus STOPPING
+[14/May/2013:16:22:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:22:01] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:22:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:22:01] ENGINE Bus STOPPED
+[14/May/2013:16:22:01] ENGINE Bus EXITING
+[14/May/2013:16:22:01] ENGINE Bus EXITED
+[14/May/2013:16:22:01] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:22:01] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:16:24:05] ENGINE Listening for SIGHUP.
+[14/May/2013:16:24:05] ENGINE Listening for SIGTERM.
+[14/May/2013:16:24:05] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:24:05] ENGINE Bus STARTING
+[14/May/2013:16:24:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:24:05] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:24:05] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:24:05] ENGINE Bus STARTED
+[14/May/2013:16:24:35] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:24:35] ENGINE Bus STOPPING
+[14/May/2013:16:24:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:24:35] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:24:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:24:35] ENGINE Bus STOPPED
+[14/May/2013:16:24:35] ENGINE Bus EXITING
+[14/May/2013:16:24:35] ENGINE Bus EXITED
+[14/May/2013:16:24:35] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:25:28] ENGINE Listening for SIGHUP.
+[14/May/2013:16:25:28] ENGINE Listening for SIGTERM.
+[14/May/2013:16:25:28] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:25:28] ENGINE Bus STARTING
+[14/May/2013:16:25:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:25:28] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:25:28] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:25:28] ENGINE Bus STARTED
+[14/May/2013:16:26:37] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:26:37] ENGINE Bus STOPPING
+[14/May/2013:16:26:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:26:37] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:26:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:26:37] ENGINE Bus STOPPED
+[14/May/2013:16:26:37] ENGINE Bus EXITING
+[14/May/2013:16:26:37] ENGINE Bus EXITED
+[14/May/2013:16:26:37] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:26:39] ENGINE Listening for SIGHUP.
+[14/May/2013:16:26:39] ENGINE Listening for SIGTERM.
+[14/May/2013:16:26:39] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:26:39] ENGINE Bus STARTING
+[14/May/2013:16:26:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:26:39] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:26:40] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:26:40] ENGINE Bus STARTED
+[14/May/2013:16:26:58] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:26:58] ENGINE Bus STOPPING
+[14/May/2013:16:26:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:26:58] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:26:58] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:26:58] ENGINE Bus STOPPED
+[14/May/2013:16:26:58] ENGINE Bus EXITING
+[14/May/2013:16:26:58] ENGINE Bus EXITED
+[14/May/2013:16:26:58] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:27:31] ENGINE Listening for SIGHUP.
+[14/May/2013:16:27:31] ENGINE Listening for SIGTERM.
+[14/May/2013:16:27:31] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:27:31] ENGINE Bus STARTING
+[14/May/2013:16:27:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:27:31] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:27:32] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:27:32] ENGINE Bus STARTED
+[14/May/2013:16:27:50] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:27:50] ENGINE Bus STOPPING
+[14/May/2013:16:27:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:27:51] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:27:51] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:27:51] ENGINE Bus STOPPED
+[14/May/2013:16:27:51] ENGINE Bus EXITING
+[14/May/2013:16:27:51] ENGINE Bus EXITED
+[14/May/2013:16:27:51] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:27:51] ENGINE Waiting for thread CP Server Thread-5.
+[14/May/2013:16:28:05] ENGINE Listening for SIGHUP.
+[14/May/2013:16:28:05] ENGINE Listening for SIGTERM.
+[14/May/2013:16:28:05] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:28:05] ENGINE Bus STARTING
+[14/May/2013:16:28:05] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:28:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:28:05] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:28:05] ENGINE Bus STARTED
+[14/May/2013:16:35:32] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:35:32] ENGINE Bus STOPPING
+[14/May/2013:16:35:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:35:32] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:35:32] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:35:32] ENGINE Bus STOPPED
+[14/May/2013:16:35:32] ENGINE Bus EXITING
+[14/May/2013:16:35:32] ENGINE Bus EXITED
+[14/May/2013:16:35:32] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:37:52] ENGINE Listening for SIGHUP.
+[14/May/2013:16:37:52] ENGINE Listening for SIGTERM.
+[14/May/2013:16:37:52] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:37:52] ENGINE Bus STARTING
+[14/May/2013:16:37:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:37:52] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:37:52] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:37:52] ENGINE Bus STARTED
+[14/May/2013:16:38:35] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:38:35] ENGINE Bus STOPPING
+[14/May/2013:16:38:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:38:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:38:36] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:38:36] ENGINE Bus STOPPED
+[14/May/2013:16:38:36] ENGINE Bus EXITING
+[14/May/2013:16:38:36] ENGINE Bus EXITED
+[14/May/2013:16:38:36] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:38:36] ENGINE Waiting for thread CP Server Thread-6.
+[14/May/2013:16:39:51] ENGINE Listening for SIGHUP.
+[14/May/2013:16:39:51] ENGINE Listening for SIGTERM.
+[14/May/2013:16:39:51] ENGINE Listening for SIGUSR1.
+[14/May/2013:16:39:51] ENGINE Bus STARTING
+[14/May/2013:16:39:51] ENGINE Started monitor thread 'Autoreloader'.
+[14/May/2013:16:39:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[14/May/2013:16:39:52] ENGINE Serving on 0.0.0.0:8080
+[14/May/2013:16:39:52] ENGINE Bus STARTED
+[14/May/2013:16:40:37] ENGINE Keyboard Interrupt: shutting down bus
+[14/May/2013:16:40:37] ENGINE Bus STOPPING
+[14/May/2013:16:40:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/May/2013:16:40:37] ENGINE Stopped thread 'Autoreloader'.
+[14/May/2013:16:40:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[14/May/2013:16:40:37] ENGINE Bus STOPPED
+[14/May/2013:16:40:37] ENGINE Bus EXITING
+[14/May/2013:16:40:37] ENGINE Bus EXITED
+[14/May/2013:16:40:37] ENGINE Waiting for child threads to terminate...
+[14/May/2013:16:40:37] ENGINE Waiting for thread CP Server Thread-6.

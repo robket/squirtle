@@ -36,5 +36,16 @@ class squiver:
       tmp = Template(filename='html/mako.txt')
       return tmp.render(salutation="Hello", target="World")
 
+    @cherrypy.expose
+    def homeHandler(self, *args, **kwargs):
+      print kwargs
+
+      s = ""
+
+      for k in kwargs.keys():
+        if kwargs[k]:
+          s = s + "%s : %s\n" % (k, kwargs[k])
+      return s
+
 cherrypy.quickstart(squiver(), config="cherrypy.conf")
 
