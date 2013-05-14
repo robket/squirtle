@@ -2,7 +2,17 @@ import cherrypy
 import datetime
 import simplejson
 from mako.template import Template
-from mako.lookup import TemplateLookup
+from mako.lookup import TemplateLookupo
+
+load(filename):
+  data = simplejson.load(open("data/"+filename))
+  return data["records"]
+
+add(filename, record):
+  data = simplejson.load(open("data/"+filename))
+  index = data["index"]
+  data["records"][index + 1] = record
+  simplejson.dump(data, open("data/"+filename, "w"))
 
 class squiver:
     @cherrypy.expose
