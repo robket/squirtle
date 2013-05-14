@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+
+<head>
+<title>Kenya/Squirtle</title>
+  <style type='text/css'>
+    body {
+      background-color: #CCC;
+    }
+    #content {
+      background-color: #FFF;
+      border-radius: 5px;
+    }
+    #content .main {
+      padding: 20px;
+    }
+    #content .sidebar {
+      padding: 10px;
+    }
+    #content p {
+      line-height: 30px;
+    }
+  </style>
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  
+  <script type="text/javascript">
+	function initialize() {
+		var latlng = new google.maps.LatLng(-33.915417,18.425564); 
+		var settings = {
+			zoom: 18,
+			center: latlng,
+			mapTypeControl: true,
+			mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+			navigationControl: true,
+			navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+
+    var companyPos = new google.maps.LatLng(-33.915417,18.425564);
+    var companyMarker = new google.maps.Marker({
+      position: companyPos,
+      map: map,
+      title:"CTICC"
+    });
+  }
+  </script>
+
+</head>
+<body onload="initialize()">
+  <div class='container'>
+    <h1>SQUIRTLE DATA INPUT</h1>
+
+    <div class='navbar navbar-inverse'>
+      <div class='navbar-inner nav-collapse' style="height: auto;">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Input Data</a></li>
+          <li class="active"><a href="view.html">View Data</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class='navbar-inner nav-collapse' id="map_canvas" style="width:auto; height:500px"></div>
+
+  </dev>
+</body>
+</html>
