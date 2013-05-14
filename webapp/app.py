@@ -29,5 +29,16 @@ class squiver:
       # do_something_with(body)
       return "\n".join(map(lambda x: x.upper(), body["names"]))
 
+    @cherrypy.expose
+    def homeHandler(self, *args, **kwargs):
+      print kwargs
+
+      s = ""
+
+      for k in kwargs.keys():
+        if kwargs[k]:
+          s = s + "%s : %s\n" % (k, kwargs[k])
+      return s
+
 cherrypy.quickstart(squiver(), config="cherrypy.conf")
 
