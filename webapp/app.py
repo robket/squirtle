@@ -113,7 +113,7 @@ class squiver:
       p1 = str(l)
       p2 = str(l[::-1])
       p5 = p4 = p3 = p1
-      return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5, param_lbl1="1", param_lbl2="2", param_lbl3="3", param_lbl4="4", param_lbl5="5")
+      return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="Taste", param2="pH", param3="Color", param4="Solids Amount", param5="Temperature", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5, param_lbl1="1", param_lbl2="2", param_lbl3="3", param_lbl4="4", param_lbl5="5")
     
     @cherrypy.expose
     def mako(self):
