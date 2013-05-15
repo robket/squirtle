@@ -52,6 +52,20 @@ class squiver:
       body = simplejson.loads(rawbody)
       # do_something_with(body)
       return "\n".join(map(lambda x: x.upper(), body["names"]))
+
+    # parameter form submit page
+    @cherrypy.expose
+    def input(self):
+      mylookup = TemplateLookup(directories=['html'])
+      mytemplate = mylookup.get_template('input.html')
+      return mytemplate.render()
+
+    # graph view page
+    @cherrypy.expose
+    def view(self):
+      mylookup = TemplateLookup(directories=['html'])
+      mytemplate = mylookup.get_template('view.html')
+      return mytemplate.render()
     
     @cherrypy.expose
     def mako(self):
