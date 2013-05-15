@@ -2,6 +2,9 @@
 	"index": 1,
 	"records": [
 		{"name":"Taste", "baseline": 0.5},
-		{"name":"pH", "baseline": 5.5}
+		{"name":"pH", "baseline": 5.5},
+    {"name":"Color", "baseline": 5.5},
+    {"name":"Solids amount", "baseline": 5.5},
+    {"name":"Temperature", "baseline": 5.5}
 	]
 }
