@@ -86,6 +86,24 @@ class squiver:
       body = simplejson.loads(rawbody)
       # do_something_with(body)
       return "\n".join(map(lambda x: x.upper(), body["names"]))
+
+    # parameter form submit page
+    @cherrypy.expose
+    def input(self):
+      mylookup = TemplateLookup(directories=['html'])
+      mytemplate = mylookup.get_template('input.html')
+      return mytemplate.render()
+
+    # graph view page
+    @cherrypy.expose
+    def view(self):
+      mylookup = TemplateLookup(directories=['html'])
+      mytemplate = mylookup.get_template('view.html')
+      l = [1,2,3,4,5,1,2,3,4,5]
+      p1 = str(l)
+      p2 = str(l[::-1])
+      p5 = p4 = p3 = p1
+      return mytemplate.render(lat="-33.922308", lng="18.417655", title="The Title", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5)
     
     @cherrypy.expose
     def mako(self):
@@ -93,7 +111,11 @@ class squiver:
       mytemplate = mylookup.get_template('shedinja.html')
       d = dict(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
       #return mytemplate.render(first="foo", second="bar", third="baz")
-      return mytemplate.render(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
+      l = [1,2,3,4,5,1,2,3,4,5]
+      p1 = str(l)
+      p2 = str(l[::-1])
+      p5 = p4 = p3 = p1
+      return mytemplate.render(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5)
 
     # Stuff you get when someone submits
     @cherrypy.expose
