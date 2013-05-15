@@ -73,7 +73,11 @@ class squiver:
       mytemplate = mylookup.get_template('shedinja.html')
       d = dict(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
       #return mytemplate.render(first="foo", second="bar", third="baz")
-      return mytemplate.render(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
+      l = [1,2,3,4,5]
+      p1 = str(l)
+      p2 = str(l[::-1])
+      p5 = p4 = p3 = p1
+      return mytemplate.render(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5)
 
     @cherrypy.expose
     def homeHandler(self, *args, **kwargs):
