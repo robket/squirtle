@@ -32,7 +32,7 @@
 	function initialize() {
 		var latlng = new google.maps.LatLng( ${lat} , ${lng} ); 
 		var settings = {
-			zoom: 18,
+			zoom: 11,
 			center: latlng,
 			mapTypeControl: true,
 			mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
@@ -58,11 +58,11 @@ $(function () {
                 marginBottom: 25
             },
             title: {
-                text: 'Monthly Average Temperature',
+                text: '${title}',
                 x: -20 //center
             },
             subtitle: {
-                text: 'Source: WorldClimate.com',
+                text: 'Parameter Time Series Data',
                 x: -20
             },
             xAxis: {
