@@ -65,7 +65,7 @@ class squiver:
     def view(self):
       mylookup = TemplateLookup(directories=['html'])
       mytemplate = mylookup.get_template('view.html')
-      return mytemplate.render()
+      return mytemplate.render(lat="-33.922308", lng="18.417655", title="The Title")
     
     @cherrypy.expose
     def mako(self):
@@ -73,7 +73,7 @@ class squiver:
       mytemplate = mylookup.get_template('shedinja.html')
       d = dict(first="foo", second="bar", third="baz", param1="A", param2="B", param3="C", param4="D")
       #return mytemplate.render(first="foo", second="bar", third="baz")
-      l = [1,2,3,4,5]
+      l = [1,2,3,4,5,1,2,3,4,5]
       p1 = str(l)
       p2 = str(l[::-1])
       p5 = p4 = p3 = p1
