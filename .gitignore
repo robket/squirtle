@@ -1,6 +1,6 @@
 *.py[cod]
 *.swp
-webapp/logs
+webapp/logs/*
 
 # C extensions
 *.so

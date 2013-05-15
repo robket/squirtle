@@ -134,11 +134,15 @@ class squiver:
       record = {}
       record["timestamp"] = time.time()
       record["values"] = {}
+      print kwargs
       for param in params:
         if param in kwargs:
           record["values"][param] = kwargs[param]
+      print kwargs
+      print kwargs["location"]
       self.mydb.add(kwargs["location"], record)
-      return s
+      raise cherrypy.HTTPRedirect("home/")
+      return """<html><body><h1>Success</h1></body></html>"""
 
 cherrypy.quickstart(squiver(), config="cherrypy.conf")
 
