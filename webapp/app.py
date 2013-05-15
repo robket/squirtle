@@ -1,5 +1,6 @@
 import cherrypy
 import datetime
+import time
 import simplejson
 from mako.template import Template
 from mako.lookup import TemplateLookup
@@ -13,7 +14,8 @@ class db:
   def add(self, filename, record):
     data = simplejson.load(open("data/"+filename))
     index = data["index"]
-    data["records"][index + 1] = record
+    data["records"].append(record)
+    data["index"] += 1
     simplejson.dump(data, open("data/"+filename, "w"))
 
   def edit(self, filename, index, record):
@@ -92,7 +94,8 @@ class squiver:
     def input(self):
       mylookup = TemplateLookup(directories=['html'])
       mytemplate = mylookup.get_template('input.html')
-      return mytemplate.render()
+      params = map(lambda x:x["name"], self.mydb.getParameters())
+      return mytemplate.render(parameters=params)
 
     # graph view page
     @cherrypy.expose
@@ -121,12 +124,14 @@ class squiver:
     @cherrypy.expose
     def addRecordHandler(self, *args, **kwargs):
       print kwargs
-
-      s = ""
-
-      for k in kwargs.keys():
-        if kwargs[k]:
-          s = s + "%s : %s\n" % (k, kwargs[k])
+      params = map(lambda x:x["name"], self.mydb.getParameters())
+      record = {}
+      record["timestamp"] = time.time()
+      record["values"] = {}
+      for param in params:
+        if param in kwargs:
+          record["values"][param] = kwargs[param]
+      self.mydb.add(kwargs["location"], record)
       return s
 
 cherrypy.quickstart(squiver(), config="cherrypy.conf")

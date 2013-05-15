@@ -35,41 +35,24 @@
         </ul>
       </div>
     </div>
-
     <form action="addRecordHandler" name="troll" method="post" class="form-horizontal">  
       <div class="form-actions">
       <fieldset>  
           <legend>Input form</legend>  
           <div class="control-group success">  
-            <label class="control-label" for="inputSuccess">Param 1</label>  
+            <label class="control-label" for="inputSuccess">Location</label>  
             <div class="controls">  
-              <input type="text" name="param1" id="inputSuccess">  
+              <input type="text" name="location" id="inputSuccess">  
             </div>  
           </div>  
+% for a in parameters:
           <div class="control-group success">  
-            <label class="control-label" for="inputSuccess">Param 2</label>  
+            <label class="control-label" for="inputSuccess">${a}</label>  
             <div class="controls">  
-              <input type="text" name="param2" id="inputSuccess">  
+              <input type="text" name="${a}" id="inputSuccess">  
             </div>  
-          </div>
-          <div class="control-group success">  
-            <label class="control-label" for="inputSuccess">Param 3</label>  
-            <div class="controls">  
-              <input type="text" name="param3" id="inputSuccess">  
-            </div>  
-          </div>
-          <div class="control-group success">  
-            <label class="control-label" for="inputSuccess">Param 4</label>  
-            <div class="controls">  
-              <input type="text" name="param4" id="inputSuccess">  
-            </div>  
-          </div>
-          <div class="control-group success">  
-            <label class="control-label" for="inputSuccess">Param 5</label>  
-            <div class="controls">  
-              <input type="text" name="param5" id="inputSuccess">  
-            </div>  
-          </div>
+          </div>  
+% endfor
       </fieldset>  
       <button  type="submit" value="Submit" class="btn btn-primary">Submit</button>
       </div>
