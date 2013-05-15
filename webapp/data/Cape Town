@@ -1,0 +1,17 @@
+{
+	"index": 3,
+	"records": [
+		{"timestamp": 1368609058.339417,
+		 "values": {"Taste":0.7, "pH":5.7}
+		},
+		{"timestamp": 1368544210,
+		 "values": {"Taste":0.7, "pH":5.7}
+		},
+		{"timestamp": 1368457810,
+		 "values": {"Taste":0.6, "pH":5.9}
+		},
+		{"timestamp": 1368371410,
+		 "values": {"Taste":0.4, "pH":6.7}
+		}
+	]
+}

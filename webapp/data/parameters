@@ -1,0 +1,7 @@
+{
+	"index": 1,
+	"records": [
+		{"name":"Taste", "baseline": 0.5},
+		{"name":"pH", "baseline": 5.5}
+	]
+}
