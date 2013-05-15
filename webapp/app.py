@@ -4,6 +4,31 @@ import simplejson
 from mako.template import Template
 from mako.lookup import TemplateLookup
 
+class db:
+  def load(filename):
+    data = simplejson.load(open("data/"+filename))
+    return data["records"]
+
+  def add(filename, record):
+    data = simplejson.load(open("data/"+filename))
+    index = data["index"]
+    data["records"][index + 1] = record
+    simplejson.dump(data, open("data/"+filename, "w"))
+
+  def edit(filename, index, record):
+    data = simplejson.load(open("data/"+filename))
+    data["records"][index] = record
+    simplejson.dump(data, open("data/"+filename, "w"))
+
+  def getLocations():
+    return load("locations")
+
+  def getParameters():
+    return load("parameters")
+
+  def getRecords(location):
+    return load(location)
+
 class squiver:
     @cherrypy.expose
     def index(self):
