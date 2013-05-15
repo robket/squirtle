@@ -21,6 +21,14 @@
       line-height: 30px;
     }
 </style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<link href="select2/select2.css" rel="stylesheet"/>
+<script src="select2/select2.js"></script>
+<script>
+$(document).ready(function() { $("#e1").select2(); });
+</script>
+
 </head>
 <body>
 
@@ -40,8 +48,14 @@
    <div id='content' class='row-fluid'>
    <div class='span9 main'>
       <h2>Pool party</h2>
+      <select id="e1">
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      </select>
    </div>
    </div>
+
+
   </div>
 </body>
 </html>

@@ -3493,3 +3493,207 @@ Request Headers:
 [15/May/2013:11:44:02] ENGINE Started monitor thread '_TimeoutMonitor'.
 [15/May/2013:11:44:02] ENGINE Serving on 0.0.0.0:8080
 [15/May/2013:11:44:02] ENGINE Bus STARTED
+[15/May/2013:11:59:40] ENGINE Restarting because cherrypy.conf changed.
+[15/May/2013:11:59:40] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:11:59:40] ENGINE Bus STOPPING
+[15/May/2013:11:59:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:11:59:40] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:11:59:40] ENGINE Bus STOPPED
+[15/May/2013:11:59:40] ENGINE Bus EXITING
+[15/May/2013:11:59:40] ENGINE Bus EXITED
+[15/May/2013:11:59:40] ENGINE Waiting for child threads to terminate...
+[15/May/2013:11:59:40] ENGINE Re-spawning app.py
+[15/May/2013:11:59:40] ENGINE Listening for SIGHUP.
+[15/May/2013:11:59:40] ENGINE Listening for SIGTERM.
+[15/May/2013:11:59:40] ENGINE Listening for SIGUSR1.
+[15/May/2013:11:59:40] ENGINE Bus STARTING
+[15/May/2013:11:59:40] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:11:59:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:11:59:40] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:11:59:40] ENGINE Bus STARTED
+[15/May/2013:12:01:01] ENGINE Restarting because cherrypy.conf changed.
+[15/May/2013:12:01:01] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:01:01] ENGINE Bus STOPPING
+[15/May/2013:12:01:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:01:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:01:01] ENGINE Bus STOPPED
+[15/May/2013:12:01:01] ENGINE Bus EXITING
+[15/May/2013:12:01:01] ENGINE Bus EXITED
+[15/May/2013:12:01:01] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:01:01] ENGINE Re-spawning app.py
+[15/May/2013:12:03:14] ENGINE Listening for SIGHUP.
+[15/May/2013:12:03:14] ENGINE Listening for SIGTERM.
+[15/May/2013:12:03:14] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:03:14] ENGINE Bus STARTING
+[15/May/2013:12:03:14] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:03:14] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:03:14] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:03:14] ENGINE Bus STARTED
+[15/May/2013:12:03:16]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 102, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 62, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cptools.py", line 176, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/static.py", line 296, in staticdir
+    raise ValueError(msg)
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 102, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 62, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cptools.py", line 176, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/static.py", line 296, in staticdir
+    raise ValueError(msg)
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/home
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:03:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 653, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 112, in run
+    raise exc
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/home
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/css,*/*;q=0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:03:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 653, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 112, in run
+    raise exc
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 102, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 62, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cptools.py", line 176, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/static.py", line 296, in staticdir
+    raise ValueError(msg)
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/home
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/css,*/*;q=0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:03:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 653, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 112, in run
+    raise exc
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16]  Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 102, in run
+    hook()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 62, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cptools.py", line 176, in _wrapper
+    if self.callable(**kwargs):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/static.py", line 296, in staticdir
+    raise ValueError(msg)
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:16] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/home
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: */*
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:03:16] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 653, in respond
+    self.hooks.run('before_handler')
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 112, in run
+    raise exc
+ValueError: Static dir requires an absolute dir (or root).
+
+[15/May/2013:12:03:44] ENGINE Restarting because cherrypy.conf changed.
+[15/May/2013:12:03:44] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:03:44] ENGINE Bus STOPPING
+[15/May/2013:12:03:44] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:03:44] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:03:44] ENGINE Bus STOPPED
+[15/May/2013:12:03:44] ENGINE Bus EXITING
+[15/May/2013:12:03:44] ENGINE Bus EXITED
+[15/May/2013:12:03:44] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:03:44] ENGINE Re-spawning app.py
+[15/May/2013:12:03:44] ENGINE Listening for SIGHUP.
+[15/May/2013:12:03:44] ENGINE Listening for SIGTERM.
+[15/May/2013:12:03:44] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:03:44] ENGINE Bus STARTING
+[15/May/2013:12:03:44] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:03:44] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:03:44] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:03:44] ENGINE Bus STARTED
+[15/May/2013:12:04:36] ENGINE Keyboard Interrupt: shutting down bus
+[15/May/2013:12:04:36] ENGINE Bus STOPPING
+[15/May/2013:12:04:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:04:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:04:36] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:04:36] ENGINE Bus STOPPED
+[15/May/2013:12:04:36] ENGINE Bus EXITING
+[15/May/2013:12:04:36] ENGINE Bus EXITED
+[15/May/2013:12:04:36] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:04:38] ENGINE Listening for SIGHUP.
+[15/May/2013:12:04:38] ENGINE Listening for SIGTERM.
+[15/May/2013:12:04:38] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:04:38] ENGINE Bus STARTING
+[15/May/2013:12:04:38] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:04:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:04:38] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:04:38] ENGINE Bus STARTED
+[15/May/2013:12:04:46] ENGINE Keyboard Interrupt: shutting down bus
+[15/May/2013:12:04:46] ENGINE Bus STOPPING
+[15/May/2013:12:04:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:04:46] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:04:46] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:04:46] ENGINE Bus STOPPED
+[15/May/2013:12:04:46] ENGINE Bus EXITING
+[15/May/2013:12:04:46] ENGINE Bus EXITED
+[15/May/2013:12:04:46] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:05:11] ENGINE Listening for SIGHUP.
+[15/May/2013:12:05:11] ENGINE Listening for SIGTERM.
+[15/May/2013:12:05:11] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:05:11] ENGINE Bus STARTING
+[15/May/2013:12:05:11] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:05:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:05:11] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:05:11] ENGINE Bus STARTED
