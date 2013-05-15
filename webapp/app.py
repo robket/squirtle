@@ -102,7 +102,8 @@ class squiver:
       mylookup = TemplateLookup(directories=['html'])
       mytemplate = mylookup.get_template('input.html')
       params = map(lambda x:x["name"], self.mydb.getParameters())
-      return mytemplate.render(parameters=params)
+      locations = self.mydb.getLocations()
+      return mytemplate.render(parameters=params, locations=locations)
 
     # graph view page
     @cherrypy.expose
