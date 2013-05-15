@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+
+<head>
+<title>Kenya/Squirtle</title>
+<style type='text/css'>
+    body {
+      background-color: #CCC;
+    }
+    #content {
+      background-color: #FFF;
+      border-radius: 5px;
+    }
+    #content .main {
+      padding: 20px;
+    }
+    #content .sidebar {
+      padding: 10px;
+    }
+    #content p {
+      line-height: 30px;
+    }
+</style>
+</head>
+<body>
+
+  <div class='container'>
+    <h1>SQUIRTLE WATER MANAGEMENT</h1>
+
+    <div class='navbar navbar-inverse'>
+      <div class='navbar-inner nav-collapse' style="height: auto;">
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="input.html">Input Data</a></li>
+          <li><a href="view.html">View Data</a></li>
+        </ul>
+      </div>
+    </div>
+
+   <div id='content' class='row-fluid'>
+   <div class='span9 main'>
+   <h2>Main Content Section</h2>
+    <form class="form-horizontal">  
+     <div class="form-actions">
+        <fieldset>  
+          <legend>Input form</legend>  
+          <div class="control-group success" action="update" name="troll" method="post">  
+            <label class="control-label" for="inputSuccess">Param 1</label>  
+            <div class="controls">  
+              <input type="text" name="param1" id="inputSuccess">  
+            </div>  
+          </div>  
+          <div class="control-group success">  
+            <label class="control-label" for="inputSuccess">Param 2</label>  
+            <div class="controls">  
+              <input type="text" name="param2" id="inputSuccess">  
+            </div>  
+          </div>
+          <div class="control-group success">  
+            <label class="control-label" for="inputSuccess">Param 3</label>  
+            <div class="controls">  
+              <input type="text" name="param3" id="inputSuccess">  
+            </div>  
+          </div>
+          <div class="control-group success">  
+            <label class="control-label" for="inputSuccess">Param 4</label>  
+            <div class="controls">  
+              <input type="text" name="param4" id="inputSuccess">  
+            </div>  
+          </div>
+          <div class="control-group success">  
+            <label class="control-label" for="inputSuccess">Param 5</label>  
+            <div class="controls">  
+              <input type="text" name="param5" id="inputSuccess">  
+            </div>  
+          </div>
+        </fieldset>  
+    <button  type="submit" value="Submit" class="btn btn-primary">Submit</button>
+    </div>
+   </form>  
+  </div>
+      <div class='span3 sidebar'>
+        <h2>Sidebar</h2>
+        <ul class="nav nav-tabs nav-stacked">
+          <li><a href='#'>Another Link 1</a></li>
+          <li><a href='#'>Another Link 2</a></li>
+          <li><a href='#'>Another Link 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
