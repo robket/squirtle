@@ -3697,3 +3697,509 @@ ValueError: Static dir requires an absolute dir (or root).
 [15/May/2013:12:05:11] ENGINE Started monitor thread '_TimeoutMonitor'.
 [15/May/2013:12:05:11] ENGINE Serving on 0.0.0.0:8080
 [15/May/2013:12:05:11] ENGINE Bus STARTED
+[15/May/2013:12:10:09] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:10:09] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:10:09] ENGINE Bus STOPPING
+[15/May/2013:12:10:09] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:10:09] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:10:09] ENGINE Bus STOPPED
+[15/May/2013:12:10:09] ENGINE Bus EXITING
+[15/May/2013:12:10:09] ENGINE Bus EXITED
+[15/May/2013:12:10:09] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:10:09] ENGINE Re-spawning app.py
+[15/May/2013:12:10:09] ENGINE Listening for SIGHUP.
+[15/May/2013:12:10:09] ENGINE Listening for SIGTERM.
+[15/May/2013:12:10:09] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:10:09] ENGINE Bus STARTING
+[15/May/2013:12:10:09] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:10:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:10:10] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:10:10] ENGINE Bus STARTED
+[15/May/2013:12:12:47] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:12:47] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:12:47] ENGINE Bus STOPPING
+[15/May/2013:12:12:47] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:12:47] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:12:47] ENGINE Bus STOPPED
+[15/May/2013:12:12:47] ENGINE Bus EXITING
+[15/May/2013:12:12:47] ENGINE Bus EXITED
+[15/May/2013:12:12:48] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:12:48] ENGINE Re-spawning app.py
+[15/May/2013:12:12:48] ENGINE Listening for SIGHUP.
+[15/May/2013:12:12:48] ENGINE Listening for SIGTERM.
+[15/May/2013:12:12:48] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:12:48] ENGINE Bus STARTING
+[15/May/2013:12:12:48] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:12:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:12:48] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:12:48] ENGINE Bus STARTED
+[15/May/2013:12:12:51] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:12:51] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:12:51] ENGINE Bus STOPPING
+[15/May/2013:12:12:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:12:51] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:12:51] ENGINE Bus STOPPED
+[15/May/2013:12:12:51] ENGINE Bus EXITING
+[15/May/2013:12:12:51] ENGINE Bus EXITED
+[15/May/2013:12:12:51] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:12:51] ENGINE Re-spawning app.py
+[15/May/2013:12:12:51] ENGINE Listening for SIGHUP.
+[15/May/2013:12:12:51] ENGINE Listening for SIGTERM.
+[15/May/2013:12:12:51] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:12:51] ENGINE Bus STARTING
+[15/May/2013:12:12:51] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:12:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:12:51] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:12:51] ENGINE Bus STARTED
+[15/May/2013:12:14:25] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:14:25] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:14:25] ENGINE Bus STOPPING
+[15/May/2013:12:14:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:14:25] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:14:25] ENGINE Bus STOPPED
+[15/May/2013:12:14:25] ENGINE Bus EXITING
+[15/May/2013:12:14:25] ENGINE Bus EXITED
+[15/May/2013:12:14:25] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:14:25] ENGINE Re-spawning app.py
+[15/May/2013:12:14:25] ENGINE Listening for SIGHUP.
+[15/May/2013:12:14:25] ENGINE Listening for SIGTERM.
+[15/May/2013:12:14:25] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:14:25] ENGINE Bus STARTING
+[15/May/2013:12:14:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:14:25] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:14:25] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:14:25] ENGINE Bus STARTED
+[15/May/2013:12:14:52] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:14:52] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:14:52] ENGINE Bus STOPPING
+[15/May/2013:12:14:52] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:14:52] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:14:52] ENGINE Bus STOPPED
+[15/May/2013:12:14:52] ENGINE Bus EXITING
+[15/May/2013:12:14:52] ENGINE Bus EXITED
+[15/May/2013:12:14:52] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:14:52] ENGINE Re-spawning app.py
+[15/May/2013:12:14:52] ENGINE Listening for SIGHUP.
+[15/May/2013:12:14:52] ENGINE Listening for SIGTERM.
+[15/May/2013:12:14:52] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:14:52] ENGINE Bus STARTING
+[15/May/2013:12:14:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:14:52] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:14:52] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:14:52] ENGINE Bus STARTED
+[15/May/2013:12:15:06] ENGINE Restarting because cherrypy.conf changed.
+[15/May/2013:12:15:06] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:15:06] ENGINE Bus STOPPING
+[15/May/2013:12:15:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:15:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:15:06] ENGINE Bus STOPPED
+[15/May/2013:12:15:06] ENGINE Bus EXITING
+[15/May/2013:12:15:06] ENGINE Bus EXITED
+[15/May/2013:12:15:06] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:15:06] ENGINE Re-spawning app.py
+[15/May/2013:12:15:06] ENGINE Listening for SIGHUP.
+[15/May/2013:12:15:06] ENGINE Listening for SIGTERM.
+[15/May/2013:12:15:06] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:15:06] ENGINE Bus STARTING
+[15/May/2013:12:15:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:15:06] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:15:07] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:15:07] ENGINE Bus STARTED
+[15/May/2013:12:15:10] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:15:10] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 94, in home
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+  File "app.py", line 94, in <lambda>
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+TypeError: string indices must be integers, not str
+
+[15/May/2013:12:16:05] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/view
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:16:05] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 94, in home
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+  File "app.py", line 94, in <lambda>
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+TypeError: string indices must be integers, not str
+
+[15/May/2013:12:17:00] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:17:00] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:17:00] ENGINE Bus STOPPING
+[15/May/2013:12:17:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:17:00] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:17:00] ENGINE Bus STOPPED
+[15/May/2013:12:17:00] ENGINE Bus EXITING
+[15/May/2013:12:17:00] ENGINE Bus EXITED
+[15/May/2013:12:17:00] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:17:00] ENGINE Re-spawning app.py
+[15/May/2013:12:17:00] ENGINE Listening for SIGHUP.
+[15/May/2013:12:17:00] ENGINE Listening for SIGTERM.
+[15/May/2013:12:17:00] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:17:00] ENGINE Bus STARTING
+[15/May/2013:12:17:00] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:17:00] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:17:01] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:17:01] ENGINE Bus STARTED
+[15/May/2013:12:17:01] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/view
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:17:01] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 94, in home
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+  File "app.py", line 94, in <lambda>
+    params = map(lambda x:x["name"], self.mydb.getLocations())
+TypeError: string indices must be integers, not str
+
+[15/May/2013:12:17:49] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:17:49] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:17:49] ENGINE Bus STOPPING
+[15/May/2013:12:17:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:17:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:17:49] ENGINE Bus STOPPED
+[15/May/2013:12:17:49] ENGINE Bus EXITING
+[15/May/2013:12:17:49] ENGINE Bus EXITED
+[15/May/2013:12:17:49] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:17:49] ENGINE Re-spawning app.py
+[15/May/2013:12:17:49] ENGINE Listening for SIGHUP.
+[15/May/2013:12:17:49] ENGINE Listening for SIGTERM.
+[15/May/2013:12:17:49] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:17:49] ENGINE Bus STARTING
+[15/May/2013:12:17:49] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:17:49] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:17:49] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:17:49] ENGINE Bus STARTED
+[15/May/2013:12:18:10] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:18:10] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:18:10] ENGINE Bus STOPPING
+[15/May/2013:12:18:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:18:10] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:18:10] ENGINE Bus STOPPED
+[15/May/2013:12:18:10] ENGINE Bus EXITING
+[15/May/2013:12:18:10] ENGINE Bus EXITED
+[15/May/2013:12:18:10] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:18:10] ENGINE Re-spawning app.py
+[15/May/2013:12:18:10] ENGINE Listening for SIGHUP.
+[15/May/2013:12:18:10] ENGINE Listening for SIGTERM.
+[15/May/2013:12:18:10] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:18:10] ENGINE Bus STARTING
+[15/May/2013:12:18:10] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:18:10] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:18:10] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:18:10] ENGINE Bus STARTED
+[15/May/2013:12:21:09] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/view
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:21:09] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 94, in home
+    params = self.mydb.getLocations()
+  File "app.py", line 27, in getLocations
+    return self.load("locations")
+  File "app.py", line 11, in load
+    data = simplejson.load(open("data/"+filename))
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 357, in load
+    use_decimal=use_decimal, **kw)
+  File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 413, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 402, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/dist-packages/simplejson/decoder.py", line 418, in raw_decode
+    obj, end = self.scan_once(s, idx)
+JSONDecodeError: Invalid control character at: line 36 column 13 (char 482)
+
+[15/May/2013:12:23:10] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/input
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:23:10] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 116, in view
+    return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+  File "view_html", line 84, in render_body
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 180, in __str__
+    raise NameError("Undefined")
+NameError: Undefined
+
+[15/May/2013:12:24:08] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:24:08] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:24:08] ENGINE Bus STOPPING
+[15/May/2013:12:24:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:24:08] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:24:08] ENGINE Bus STOPPED
+[15/May/2013:12:24:08] ENGINE Bus EXITING
+[15/May/2013:12:24:08] ENGINE Bus EXITED
+[15/May/2013:12:24:08] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:24:08] ENGINE Re-spawning app.py
+[15/May/2013:12:24:09] ENGINE Listening for SIGHUP.
+[15/May/2013:12:24:09] ENGINE Listening for SIGTERM.
+[15/May/2013:12:24:09] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:24:09] ENGINE Bus STARTING
+[15/May/2013:12:24:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:24:09] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:24:09] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:24:09] ENGINE Bus STARTED
+[15/May/2013:12:24:09] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/input
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:24:09] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 116, in view
+    return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5, param_lbl=1, param_lbl2=2, param_lbl3=3, param_lbl4=4, param_lbl5=5)
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+  File "view_html", line 84, in render_body
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 180, in __str__
+    raise NameError("Undefined")
+NameError: Undefined
+
+[15/May/2013:12:24:27] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:24:27] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:24:27] ENGINE Bus STOPPING
+[15/May/2013:12:24:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:24:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:24:27] ENGINE Bus STOPPED
+[15/May/2013:12:24:27] ENGINE Bus EXITING
+[15/May/2013:12:24:27] ENGINE Bus EXITED
+[15/May/2013:12:24:27] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:24:27] ENGINE Re-spawning app.py
+[15/May/2013:12:24:27] ENGINE Listening for SIGHUP.
+[15/May/2013:12:24:27] ENGINE Listening for SIGTERM.
+[15/May/2013:12:24:27] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:24:27] ENGINE Bus STARTING
+[15/May/2013:12:24:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:24:27] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:24:27] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:24:27] ENGINE Bus STARTED
+[15/May/2013:12:25:16] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:25:16] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:25:16] ENGINE Bus STOPPING
+[15/May/2013:12:25:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:25:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:25:16] ENGINE Bus STOPPED
+[15/May/2013:12:25:16] ENGINE Bus EXITING
+[15/May/2013:12:25:16] ENGINE Bus EXITED
+[15/May/2013:12:25:16] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:25:16] ENGINE Re-spawning app.py
+[15/May/2013:12:25:16] ENGINE Listening for SIGHUP.
+[15/May/2013:12:25:16] ENGINE Listening for SIGTERM.
+[15/May/2013:12:25:16] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:25:16] ENGINE Bus STARTING
+[15/May/2013:12:25:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:25:16] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:25:17] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:25:17] ENGINE Bus STARTED
+[15/May/2013:12:25:17] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/input
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:25:17] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 116, in view
+    return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5, param_lbl="1", param_lbl2="2", param_lbl3="3", param_lbl4="4", param_lbl5="5")
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+  File "view_html", line 84, in render_body
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 180, in __str__
+    raise NameError("Undefined")
+NameError: Undefined
+
+[15/May/2013:12:25:18] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/input
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+  ACCEPT-LANGUAGE: en-ZA,en-GB;q=0.8,en-US;q=0.5,en;q=0.3
+  ACCEPT-ENCODING: gzip, deflate
+[15/May/2013:12:25:18] HTTP Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cprequest.py", line 656, in respond
+    response.body = self.handler()
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/lib/encoding.py", line 188, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/CherryPy-3.2.1-py2.7.egg/cherrypy/_cpdispatch.py", line 34, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "app.py", line 116, in view
+    return mytemplate.render(lat="0.263671", lng="36.818847", title="Nairobi Water Lines Booster Pump Station", param1="A", param2="B", param3="C", param4="D", param5="Q", paramdata1=p1, paramdata2=p2, paramdata3=p3, paramdata4=p4, paramdata5=p5, param_lbl="1", param_lbl2="2", param_lbl3="3", param_lbl4="4", param_lbl5="5")
+  File "/usr/lib/python2.7/dist-packages/mako/template.py", line 302, in render
+    return runtime._render(self, self.callable_, args, data)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 660, in _render
+    **_kwargs_for_callable(callable_, data))
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 692, in _render_context
+    _exec_template(inherit, lclcontext, args=args, kwargs=kwargs)
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 718, in _exec_template
+    callable_(context, *args, **kwargs)
+  File "view_html", line 84, in render_body
+  File "/usr/lib/python2.7/dist-packages/mako/runtime.py", line 180, in __str__
+    raise NameError("Undefined")
+NameError: Undefined
+
+[15/May/2013:12:25:58] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:25:58] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:25:58] ENGINE Bus STOPPING
+[15/May/2013:12:25:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:25:58] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:25:58] ENGINE Bus STOPPED
+[15/May/2013:12:25:58] ENGINE Bus EXITING
+[15/May/2013:12:25:58] ENGINE Bus EXITED
+[15/May/2013:12:25:58] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:25:58] ENGINE Re-spawning app.py
+[15/May/2013:12:25:58] ENGINE Listening for SIGHUP.
+[15/May/2013:12:25:58] ENGINE Listening for SIGTERM.
+[15/May/2013:12:25:58] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:25:58] ENGINE Bus STARTING
+[15/May/2013:12:25:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:25:58] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:25:58] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:25:58] ENGINE Bus STARTED
+[15/May/2013:12:27:18] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:27:18] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:27:18] ENGINE Bus STOPPING
+[15/May/2013:12:27:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:27:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:27:18] ENGINE Bus STOPPED
+[15/May/2013:12:27:18] ENGINE Bus EXITING
+[15/May/2013:12:27:18] ENGINE Bus EXITED
+[15/May/2013:12:27:18] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:27:18] ENGINE Re-spawning app.py
+[15/May/2013:12:27:19] ENGINE Listening for SIGHUP.
+[15/May/2013:12:27:19] ENGINE Listening for SIGTERM.
+[15/May/2013:12:27:19] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:27:19] ENGINE Bus STARTING
+[15/May/2013:12:27:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:27:19] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:27:19] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:27:19] ENGINE Bus STARTED
+[15/May/2013:12:27:32] ENGINE Restarting because /home/rai/squirtle/webapp/app.py changed.
+[15/May/2013:12:27:32] ENGINE Stopped thread 'Autoreloader'.
+[15/May/2013:12:27:32] ENGINE Bus STOPPING
+[15/May/2013:12:27:32] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[15/May/2013:12:27:32] ENGINE Stopped thread '_TimeoutMonitor'.
+[15/May/2013:12:27:32] ENGINE Bus STOPPED
+[15/May/2013:12:27:32] ENGINE Bus EXITING
+[15/May/2013:12:27:32] ENGINE Bus EXITED
+[15/May/2013:12:27:32] ENGINE Waiting for child threads to terminate...
+[15/May/2013:12:27:32] ENGINE Re-spawning app.py
+[15/May/2013:12:27:32] ENGINE Listening for SIGHUP.
+[15/May/2013:12:27:32] ENGINE Listening for SIGTERM.
+[15/May/2013:12:27:32] ENGINE Listening for SIGUSR1.
+[15/May/2013:12:27:32] ENGINE Bus STARTING
+[15/May/2013:12:27:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:12:27:32] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:12:27:32] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:12:27:32] ENGINE Bus STARTED
