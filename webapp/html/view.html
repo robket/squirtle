@@ -2,6 +2,9 @@
 <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
 
 <head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
 <title>Kenya/Squirtle</title>
   <style type='text/css'>
     body {
@@ -46,6 +49,67 @@
   }
   </script>
 
+<script>
+$(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'line',
+                marginRight: 130,
+                marginBottom: 25
+            },
+            title: {
+                text: 'Monthly Average Temperature',
+                x: -20 //center
+            },
+            subtitle: {
+                text: 'Source: WorldClimate.com',
+                x: -20
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            yAxis: {
+                title: {
+                    text: 'Temperature (C)'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            tooltip: {
+                valueSuffix: 'C'
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -10,
+                y: 100,
+                borderWidth: 0
+            },
+            series: [{
+                name: '${param1}',
+                data: ${paramdata1},
+            }, {
+                name: '${param2}',
+                data: ${paramdata2}
+            }, {
+                name: '${param3}',
+                data: ${paramdata3}
+            }, {
+                name: '${param4}',
+                data: ${paramdata4}
+            },{
+                name: '${param5}',
+                data: ${paramdata5}
+            }]
+        });
+    });
+</script>
+
 </head>
 <body onload="initialize()">
   <div class='container'>
@@ -60,6 +124,13 @@
         </ul>
       </div>
     </div>
+
+   <!-- THE GRAPH -->
+   <div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+   <br>
+
+
+   <!-- THE MAP -->
    <div class="row">
     <div class="span6">
       <div class='navbar-inner nav-collapse' id="map_canvas" style="width:auto; height:400px"></div>
