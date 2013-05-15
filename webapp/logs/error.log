@@ -2364,3 +2364,11 @@ Request Headers:
 [14/May/2013:17:49:19] ENGINE Started monitor thread '_TimeoutMonitor'.
 [14/May/2013:17:49:19] ENGINE Serving on 0.0.0.0:8080
 [14/May/2013:17:49:19] ENGINE Bus STARTED
+[15/May/2013:10:11:09] ENGINE Listening for SIGHUP.
+[15/May/2013:10:11:09] ENGINE Listening for SIGTERM.
+[15/May/2013:10:11:09] ENGINE Listening for SIGUSR1.
+[15/May/2013:10:11:09] ENGINE Bus STARTING
+[15/May/2013:10:11:09] ENGINE Started monitor thread '_TimeoutMonitor'.
+[15/May/2013:10:11:09] ENGINE Started monitor thread 'Autoreloader'.
+[15/May/2013:10:11:09] ENGINE Serving on 0.0.0.0:8080
+[15/May/2013:10:11:09] ENGINE Bus STARTED
